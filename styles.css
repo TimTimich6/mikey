@@ -1,0 +1,41 @@
+@import url("https://fonts.cdnfonts.com/css/roblox-new");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Black", sans-serif;
+}
+body {
+  background-color: black;
+}
+.logo {
+  width: 150px;
+  position: relative;
+  top: -40px;
+  padding: 20px;
+  cursor: pointer;
+}
+.header {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: aliceblue; */
+  gap: 2rem;
+  margin: 0 2rem;
+}
+
+.label {
+  color: white;
+  /* background-color: red; */
+}
+
+.ipbox {
+  color: white;
+}
